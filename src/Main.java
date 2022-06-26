@@ -15,9 +15,9 @@ public class Main {
 		System.out.println(gold.getRewardPoints());
 		System.out.println(diamond.getRewardPoints());
 
-		silver.purchase(50);
-		gold.purchase(50);
-		diamond.purchase(50);
+		silver.purchase(3500);
+		gold.purchase(3500);
+		diamond.purchase(3500);
 
 		System.out.println(silver.getRewardPoints());
 		System.out.println(gold.getRewardPoints());
