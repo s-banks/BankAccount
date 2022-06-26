@@ -9,7 +9,7 @@ public class SavingsAccount extends Account{
 
 	public boolean withdraw(double amount) {
 		double fee = 0.025 * amount;
-		amount =+ fee;
+		amount += fee;
 		if (amount > balance) {
 			return false;
 		}
