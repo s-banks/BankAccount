@@ -14,8 +14,12 @@ public class CheckingAccount extends Account {
 			return false;
 		}
 		balance -= cost;
-		rewardPoints += cost * 10;
+		rewardPoints += calculateRewardPoints(cost);
 		return true;
+	}
+
+	public int calculateRewardPoints(double cost) {
+		return (int) (cost * 10);
 	}
 
 	public int getRewardPoints() {
